@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: fixed;
+    z-index: 99;
+}
+nav .wrapper{
+    position: relative;
+    max-width: 1300px;
+    padding: 0 30px;
+    height: 80px;
+    line-height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
