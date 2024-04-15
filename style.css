@@ -1,6 +1,20 @@
+ @font-face{
+    font-family: "SamsungOne";
+    src: url(font/SamsungOne-400.ttf);
+    font-weight: normal;
+    font-style: normal;
+ }
+ @font-face{
+    font-family: "Samsung";
+    src: url(font/samsungsharpsans-medium.otf);
+    font-weight: normal;
+    font-style: normal;
+ }
+
 *{
     margin: 0;
     padding: 0;
+    font-family: "Samsung", sans-serif;
 }
 nav{
     position: fixed;
@@ -16,4 +30,24 @@ nav .wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between
+}
+.logo{
+    padding: 20px 0 0 0 ;
+}
+.wrapper .nav-links{
+    display: inline-flex;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5.5px 13px;
+    font-family: "SamsungOne";
+
 }
